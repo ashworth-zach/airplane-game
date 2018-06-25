@@ -1,0 +1,37 @@
+#ocean {
+    background-image: url("ocean.jpg");
+    width: 900px;
+    height: 700px;
+  }
+.player{
+    position: absolute;
+    background-image: url("player.png");
+    width: 70px;
+    height:75px;
+    z-index: 1;
+}
+.enemy{
+    position: absolute;
+    background-image: url("enemy.png");
+    width: 70px;
+    height:75px;
+}
+.missile{
+    position: absolute;
+    width: 2px;
+    height:10px;
+    background-color: greenyellow;	
+}
+#shots{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 15pt;
+    color: black;
+    font: outline;
+}
+#kills{
+    padding-left: 15px;
+    padding-top: 600px;
+    font-size: 15pt;
+    color:red;
+}
