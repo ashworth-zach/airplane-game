@@ -77,7 +77,7 @@ function checkImpact(){
 		for(var x = 0; x<enemies.length;x++){
 			if(missiles[i].left >= enemies[x].left-35 && missiles[i].left <= enemies[x].left+35 && missiles[i].top <= enemies[x].top) //strange collision bug plz help
 			{//strange collision bug, only happens on second or third plane shot.
-				enemies.pop(enemies[x]);
+				enemies.splice(x,1);
 				kills.push(1);
 				document.getElementById('kills').innerHTML= "kills: "+kills.length;
 				return;
