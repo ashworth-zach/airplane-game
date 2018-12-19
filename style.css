@@ -20,7 +20,7 @@
     position: absolute;
     width: 2px;
     height:10px;
-    background-color: greenyellow;	
+    background-color: red;	
 }
 #shots{
     padding-top: 20px;
@@ -33,5 +33,10 @@
     padding-left: 15px;
     padding-top: 600px;
     font-size: 15pt;
-    color:red;
+    color:black;
 }
+/* .comment       { color: #00b3ff; }
+.selector      { color: #00fdd3; }
+.selector .key { color: #66ff00; }
+.key           { color: #ffffff; }
+.value         { color: #3787ff; } */
